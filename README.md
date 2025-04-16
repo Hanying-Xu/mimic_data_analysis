@@ -1,5 +1,22 @@
+
 # mimic_data_analysis
-personal practice of advanced r skills
+Personal practice of advanced R skills using MIMIC-IV clinical data.
+
+## RShiny App for MIMIC Data Exploration
+This repository includes an **interactive RShiny dashboard** for visualizing patient-level ICU and ADT data from the MIMIC-IV database.
+
+### Features:
+- Visualize patient demographics and lab values via dynamic charts
+- Query individual patient ICU timeline, procedures, and vitals
+- Integrates with **Google BigQuery** to pull real-time MIMIC-IV data
+
+### Important Notes:
+- The app requires:
+  - MIMIC-IV BigQuery access
+  - A local credentials JSON file (not included)
+  - An `.rds` cohort file created during prior preprocessing steps
+
+Because of these data and credential restrictions, this app is **not deployed online**, but it can be run locally with appropriate access.  
 
 # rshiny app for mimic data
 Visualizing a patient's encounters in a health care system is a common task in clinical data analysis. This tool enables us to visualize a patient's ADT (admission-discharge-transfer) history and ICU vitals in the MIMIC-IV data.
