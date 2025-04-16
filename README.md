@@ -9,3 +9,5 @@ A patient's ADT history records the time of admission, discharge, and transfer i
 ICU stays are a subset of ADT history. For the second figure, it shows the vitals of the patient you inputed during ICU stays. The x-axis is the calendar time, and the y-axis is the value of the vital. The color of the line represents the type of vital. The facet grid shows the abbreviation of the vital and the stay ID.
 
 See the picture for example of the output.
+![image](https://github.com/user-attachments/assets/cfac51dd-8360-458a-85c7-6688d422acb6)
+![image](https://github.com/user-attachments/assets/6c56912b-f7e1-41de-99e7-07e34061c5d6)
